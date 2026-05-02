@@ -133,6 +133,12 @@ h3 {
   color: oklch(0.98 0.01 90);
 }
 
+.button-secondary {
+  border: 1px solid var(--line);
+  background: color-mix(in oklab, var(--surface) 92%, white);
+  color: var(--ink);
+}
+
 .content-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
