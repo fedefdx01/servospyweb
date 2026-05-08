@@ -3,46 +3,252 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Servo Spy</title>
+    <title>Servo Spy | Find Cheaper Fuel Across Australia</title>
     <meta
       name="description"
-      content="Servo Spy helps drivers find nearby fuel stations, compare prices, save favourites, and manage alerts."
+      content="Servo Spy helps Australian drivers compare nearby fuel prices, watch market movement, and catch price drops before the next fill."
+    />
+    <meta property="og:title" content="Servo Spy" />
+    <meta
+      property="og:description"
+      content="Fuel intelligence for Australian drivers. Compare nearby stations, track price movement, and save on every fill."
+    />
+    <meta property="og:image" content="./media/cover-graph.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Expanded:wght@600;700;800&amp;family=Hanken+Grotesk:wght@400;500;600;700;800&amp;display=swap"
+      rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
-  <body>
-    <div class="page-shell">
-      <header class="hero">
-        <p class="eyebrow">Servo Spy</p>
-        <h1>Fuel decisions, without the guesswork.</h1>
-        <p class="lede">  
-          Servo Spy helps drivers find nearby fuel stations, compare prices, save stations, and manage
-          alerts from one place.
-        </p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="./privacy.html">Read Privacy Policy</a>
-          <a class="button button-secondary" href="./terms.html">Read Terms of Use</a>
-        </div>
-      </header>
-
-      <main class="content-grid">
-        <section class="card">
-          <h2>What this site is for</h2>
-          <p>
-            This web folder is a minimal public site scaffold for App Store compliance and future
-            marketing pages. It is static and deploys cleanly on Vercel.
-          </p>
-        </section>
-
-        <section class="card">
-          <h2>Included now</h2>
-          <ul class="list">
-            <li>A public privacy policy page for App Store Connect</li>
-            <li>A homepage you can expand into the full website later</li>
-            <li>Shared styles with a clean, non-generic visual baseline</li>
-          </ul>
-        </section>
-      </main>
+  <body class="landing-body">
+    <div class="site-chrome" aria-hidden="true">
+      <div class="site-glow site-glow-a"></div>
+      <div class="site-glow site-glow-b"></div>
+      <div class="site-grid"></div>
     </div>
+
+    <header class="topbar page-shell">
+      <a class="brand" href="./index.html" aria-label="Servo Spy home">
+        <img src="./media/servo-logo.png" alt="" />
+        <span>SERVO SPY</span>
+      </a>
+      <nav class="topnav" aria-label="Primary">
+        <a href="#features">Features</a>
+        <a href="#download">Download</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero page-shell">
+        <div class="hero-copy" data-reveal>
+          <p class="eyebrow">Fuel intelligence for Australian drivers</p>
+          <h1>
+            See the next
+            <span class="accent-line">cheap fill</span>
+            before you pull in.
+          </h1>
+          <p class="lede">
+            Servo Spy maps nearby fuel prices, follows station movement, and alerts you when the
+            market drops so every stop feels deliberate instead of rushed.
+          </p>
+
+          <div class="store-group" id="download">
+            <a
+              class="store-badge-link"
+              href="https://play.google.com/store/apps/details?id=com.servostation.app"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Get Servo Spy on Google Play"
+            >
+              <img src="./badges/playstore.svg" alt="Get it on Google Play" />
+            </a>
+            <a
+              class="store-badge-link"
+              href="#app-store"
+              aria-label="Download Servo Spy on the App Store"
+              title="Replace with the final App Store listing URL before launch"
+            >
+              <img src="./badges/appstore.svg" alt="Download on the App Store" />
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual" data-tilt data-reveal>
+          <div class="hero-orbit orbit-a"></div>
+          <div class="hero-orbit orbit-b"></div>
+
+          <article class="signal-card signal-card-cover">
+            <div class="signal-header">
+              <span class="signal-pill">Live market view</span>
+              <span class="signal-meta">AU coverage</span>
+            </div>
+            <img src="./media/cover-graph.png" alt="Servo Spy cover graphic" />
+          </article>
+
+          <div class="hero-device-stage" aria-hidden="true">
+            <figure class="device-shell device-shell-left">
+              <div class="device-rail"></div>
+              <div class="device-notch"></div>
+              <div class="device-screen">
+                <img
+                  src="./media/screen-community-price.png"
+                  alt="Servo Spy screen showing community fuel prices and station information"
+                />
+              </div>
+            </figure>
+
+            <figure class="device-shell device-shell-right">
+              <div class="device-rail"></div>
+              <div class="device-notch"></div>
+              <div class="device-screen">
+                <img
+                  src="./media/screen-station-detail.png"
+                  alt="Servo Spy station detail screen showing pricing, reviews, and directions"
+                />
+              </div>
+            </figure>
+          </div>
+
+          <div class="micro-card micro-card-trust">
+            <span class="micro-label">Why it lands</span>
+            <strong>Built for fast roadside decisions</strong>
+            <p>Price, distance, reviews, and directions stay visible together.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-dark" id="features">
+        <div class="page-shell feature-intro feature-intro-compact" data-reveal>
+          <div class="feature-intro-copy">
+            <p class="eyebrow">Precision, not noise</p>
+            <h2>The fuel app that behaves like an instrument panel.</h2>
+            <p>
+              Servo Spy avoids the cluttered marketplace pattern. It surfaces the nearest
+              advantage, then gives you enough context to trust the decision.
+            </p>
+          </div>
+          <div class="feature-intro-points" aria-hidden="true">
+            <span>Live nearby pricing</span>
+            <span>Fuel-cycle timing</span>
+            <span>Station context</span>
+          </div>
+        </div>
+
+        <div class="page-shell feature-sequence" data-reveal>
+          <div class="feature-sequence-line" aria-hidden="true"></div>
+
+          <article class="feature-step feature-step-map">
+            <div class="feature-step-head">
+              <span class="feature-step-num">01</span>
+              <span class="feature-step-tag">Find nearby</span>
+            </div>
+            <h3>Find the right servo in motion.</h3>
+            <p>
+              Search by suburb or postcode, scan nearby prices, and move straight from discovery
+              to directions without juggling tabs or screenshots.
+            </p>
+            <figure class="feature-phone-frame">
+              <div class="device device-phone">
+                <div class="device-chrome"></div>
+                <img
+                  src="./media/screen-map-search.png"
+                  alt="Servo Spy map search screen with nearby station prices"
+                />
+              </div>
+            </figure>
+            <div class="feature-step-footer">
+              <span>Suburb search</span>
+              <span>Live pins</span>
+              <span>Route fast</span>
+            </div>
+          </article>
+
+          <article class="feature-step feature-step-trends">
+            <div class="feature-step-head">
+              <span class="feature-step-num">02</span>
+              <span class="feature-step-tag">Track the cycle</span>
+            </div>
+            <h3>Read the pattern before the price spike.</h3>
+            <p>
+              Trend views and saved stations help drivers spot the cycle and avoid paying a
+              premium just because the road is busy.
+            </p>
+            <div class="feature-tablet-frame">
+              <img
+                src="./media/screen-trends.png"
+                alt="Servo Spy trends screen showing saved stations and pricing trends"
+              />
+            </div>
+          </article>
+
+          <article class="feature-step feature-step-map">
+            <div class="feature-step-head">
+              <span class="feature-step-num">03</span>
+              <span class="feature-step-tag">Choose with context</span>
+            </div>
+            <h3>Trust the stop, not just the number.</h3>
+            <p>
+              Station details combine price, availability context, community feedback, and quick
+              actions so drivers can choose with confidence.
+            </p>
+           
+            <div class="feature-mini-shot">
+              <img
+                src="./media/screen-station-detail.png"
+                alt="Servo Spy station detail screen showing pricing, reviews, and directions"
+              />
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="cta-section" id="download">
+        <div class="page-shell download-stage">
+        
+
+          <div class="cta-shell" data-reveal>
+            <div class="cta-copy">
+              <p class="eyebrow">Download Servo Spy</p>
+              <h2>Fuel savings feel better when the decision is already made.</h2>
+              <p class="lede">
+                Put live prices, station context, and price-drop awareness in your pocket before
+                the next refill.
+              </p>
+            </div>
+            <div class="cta-actions">
+              <a
+                class="store-badge-link"
+                href="https://play.google.com/store/apps/details?id=com.servostation.app"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Get Servo Spy on Google Play"
+              >
+                <img src="./badges/playstore.svg" alt="Get it on Google Play" />
+              </a>
+              <a
+                class="store-badge-link"
+                href="#app-store"
+                aria-label="Download Servo Spy on the App Store"
+                title="Replace with the final App Store listing URL before launch"
+              >
+                <img src="./badges/appstore.svg" alt="Download on the App Store" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer page-shell">
+      
+      <nav class="footer-nav" aria-label="Legal">
+        <a href="./privacy.html">Privacy Policy</a>
+        <a href="./terms.html">Terms of Use</a>
+      </nav>
+    </footer>
+
+    <script src="./landing.js"></script>
   </body>
 </html>

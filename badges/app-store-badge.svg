@@ -1,0 +1,9 @@
+<svg width="540" height="160" viewBox="0 0 540 160" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="appTitle appDesc">
+  <title id="appTitle">Download on the App Store</title>
+  <desc id="appDesc">Official style App Store download badge</desc>
+  <rect x="2" y="2" width="536" height="156" rx="24" fill="#0C0C0F" stroke="#A6A6AB" stroke-width="4"/>
+  <path d="M109.5 80.8C109.4 68.7 119.4 62.8 119.8 62.6C114.1 54.3 105.2 53.1 102.1 53C94.8 52.2 87.8 57.2 84.1 57.2C80.3 57.2 74.5 53.1 68.5 53.2C60.7 53.3 53.4 57.7 49.4 64.6C41.1 78.8 47.2 100 55.2 111.5C59.2 117.1 63.8 123.3 69.8 123.1C75.6 122.9 77.8 119.4 84.8 119.4C91.7 119.4 93.8 123.1 99.9 123C106.3 122.9 110.3 117.4 114.2 111.7C118.8 105.2 120.6 98.8 120.7 98.5C120.6 98.4 109.6 94.2 109.5 80.8Z" fill="white"/>
+  <path d="M97.3 45.3C100.5 41.4 102.7 36 102.1 30.5C97.5 30.7 91.7 33.7 88.4 37.5C85.5 40.8 82.9 46.4 83.6 51.7C88.8 52.1 94 49.1 97.3 45.3Z" fill="white"/>
+  <text x="154" y="59" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="24" letter-spacing="0.06em">Download on the</text>
+  <text x="154" y="111" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700">App Store</text>
+</svg>

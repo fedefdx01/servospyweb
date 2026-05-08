@@ -1,0 +1,11 @@
+<svg width="540" height="160" viewBox="0 0 540 160" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="playTitle playDesc">
+  <title id="playTitle">Get it on Google Play</title>
+  <desc id="playDesc">Official style Google Play download badge</desc>
+  <rect x="2" y="2" width="536" height="156" rx="24" fill="#0C0C0F" stroke="#A6A6AB" stroke-width="4"/>
+  <path d="M67.6 40.1C70.4 43.1 71.9 48 71.9 54.7V105.3C71.9 111.8 70.4 116.7 67.7 119.8L66.9 120.5L95.1 92.4V67.6L66.8 39.5L67.6 40.1Z" fill="#00D0FF"/>
+  <path d="M66.8 39.5L95.1 67.6L130.7 48.1C120.6 42.6 103 32.9 86.7 24L66.8 39.5Z" fill="#00E676"/>
+  <path d="M130.7 111.9L95.1 92.4L66.8 120.5L86.7 136C103 127.1 120.6 117.4 130.7 111.9Z" fill="#FFB300"/>
+  <path d="M130.7 111.9C141.7 105.9 148.7 102 148.7 80C148.7 58 141.7 54.1 130.7 48.1L95.1 67.6V92.4L130.7 111.9Z" fill="#FF3D00"/>
+  <text x="184" y="59" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="26" letter-spacing="0.12em">GET IT ON</text>
+  <text x="184" y="111" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700">Google Play</text>
+</svg>
